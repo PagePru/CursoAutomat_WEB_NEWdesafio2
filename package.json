@@ -1,0 +1,31 @@
+{
+  "name": "newdesafio2",
+  "version": "1.0.0",
+  "description": "segunda sesion 2do intento",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node node_modules/mocha/bin/mocha --timeout=30000 ./tests"
+  },
+  "author": "jegb",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "puppeteer": "^9.1.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PagePru/-CursoAutomat_WEB_desafio2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PagePru/-CursoAutomat_WEB_desafio2/issues"
+  },
+  "homepage": "https://github.com/PagePru/-CursoAutomat_WEB_desafio2#readme"
+}
